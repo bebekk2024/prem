@@ -31,7 +31,7 @@ class Button:
         buttons.add(*keyboard)
         buttons.row(
             InlineKeyboardButton(
-                "👤 ᴅᴀᴘᴀᴛᴋᴀɴ ᴘʀᴏꜰɪʟ 👤", callback_data=f"profil {user_id}"
+                "👤 ᴅᴀᴘᴀᴛᴋᴀɴ ᴘʀᴏꜰɪʟ 👤", callback_data=f"profil {user_name}"
             )
         )
         buttons.row(
@@ -54,13 +54,13 @@ class Button:
 
     def start(message):
         button = [
-            [InlineKeyboardButton("ʙᴇʟɪ ᴜsᴇʀʙᴏᴛ", callback_data="bahan")],
+            [InlineKeyboardButton("🚀ʙᴇʟɪ ᴜsᴇʀʙᴏᴛ", callback_data="bahan")],
             [
                 InlineKeyboardButton(
                     "sᴛᴀᴛᴜs ᴀᴋᴜɴ", callback_data="pler"
                 ),
                 InlineKeyboardButton(
-                    "ʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ", callback_data="memek"
+                    "💸ʙᴜᴀᴛ ᴜsᴇʀʙᴏᴛ💸", callback_data="memek"
                 ),
             ],
             #[InlineKeyboardButton("🤩 ᴜsᴇʀʙᴏᴛ ɢʀᴀᴛɪs 🤩", callback_data="grts")],
@@ -79,11 +79,11 @@ class Button:
         button = [
             [
                 InlineKeyboardButton(
-                    "-1",
+                    "-1 ᴋᴜʀᴀɴɢ",
                     callback_data=f"kurang {query}",
                 ),
                 InlineKeyboardButton(
-                    "+1",
+                    "+1 ᴛᴀᴍʙᴀʜ",
                     callback_data=f"tambah {query}",
                 ),
             ],
