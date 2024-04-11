@@ -20,7 +20,7 @@ async def ohaja(client, callback_query):
  <b>sᴛᴀᴛᴜs :</b> <code>ᴘʀᴇᴍɪᴜᴍ</code>
   <b>ᴘʀᴇғɪxᴇs :</b> <code>{prefix[0]}</code>
   <b>ᴇxᴘɪʀᴇᴅ_ᴏɴ :</b> <code>{waktu}</code>
-  <b>ʙᴏᴛ_ᴜᴘᴛɪᴍᴇ :</b> <code>mhmdwldnnnn_bot</code>
+  <b>ʙᴏᴛ_ᴜᴘᴛɪᴍᴇ :</b> <code>('.', ',')} ms</code>
 """,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(buttons),
