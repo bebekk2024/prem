@@ -4,7 +4,7 @@ DEVS = [
     5779185981,
 ]
 
-API_ID = int(os.getenv("API_ID", "26477680"))
+API_ID = int(os.getenv("API_ID", "27778109"))
 
 API_HASH = os.getenv("API_HASH", "6b0f4197f9f637e17a1466f4de587c07")
 
