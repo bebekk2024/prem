@@ -37,7 +37,7 @@ async def loadPlugins():
 <b>⏰ ᴛɪᴍᴇ: {clock}</b>
 """,
         reply_markup=InlineKeyboardMarkup(
-            [[InlineKeyboardButton("CLOSED", callback_data="0_cls")]],
+            [[InlineKeyboardButton("ᴄᴇᴋ ᴋᴀᴅᴀʟᴜᴡᴀʀsᴀ", callback_data="⏳ ᴛɪɴɢɢᴀʟ {xxxx} ʜᴀʀɪ ʟᴀɢɪ")]],
         ),
     )
     
