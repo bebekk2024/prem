@@ -101,7 +101,7 @@ async def bikin_memek(client, callback_query):
         )
     if user_id not in await get_prem():
         buttons = [
-            [InlineKeyboardButton("💸ʙᴇʟɪ ᴜsᴇʀʙᴏᴛ", callback_data="bahan")],
+            [InlineKeyboardButton("💸ʙᴇʟɪ ᴜsᴇʀʙᴏᴛ💸", callback_data="bahan")],
             [InlineKeyboardButton("ᴋᴇᴍʙᴀʟɪ", callback_data=f"home {user_id}")],
         ]
         return await callback_query.edit_message_text(
@@ -251,7 +251,7 @@ async def bikin_ubot(client, callback_query):
     for mod in loadModule():
         importlib.reload(importlib.import_module(f"PyroUbot.modules.{mod}"))
     text_done = f"""
-<b>🤖 DAN USERBOT TELAH AKTIFKAN!!!</b>
+<b>🤖 ᴅᴀɴ ᴜsᴇʀʙᴏᴛ ᴛᴇʟᴀʜ ᴀᴋᴛɪғᴋᴀɴ!!!</b>
 <b>👤 ɴᴀᴍᴇ :</b> <a href=tg://user?id={new_client.me.id}>{new_client.me.first_name} {new_client.me.last_name or ''}</a>
 <b>📋 ɪᴅ :</b> <code>{new_client.me.id}</code>
 <b>🔧 ᴘʀᴇғɪxᴇs :</b>
