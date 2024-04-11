@@ -18,9 +18,9 @@ async def ohaja(client, callback_query):
             f"""
 <b>ᴅᴀɴ ᴜꜱᴇʀʙᴏᴛ</b>
  <b>sᴛᴀᴛᴜs :</b> <code>ᴘʀᴇᴍɪᴜᴍ</code>
-  <b>ᴘʀᴇғɪxᴇs :</b> <code>{prefix[0]}</code>
+  <b>ᴘʀᴇғɪxᴇs :</b> <code>{prefix[.]}</code>
   <b>ᴇxᴘɪʀᴇᴅ_ᴏɴ :</b> <code>{waktu}</code>
-  <b>ʙᴏᴛ_ᴜᴘᴛɪᴍᴇ :</b> <code>-</code>
+  <b>ʙᴏᴛ_ᴜᴘᴛɪᴍᴇ :</b> <code>mhmdwldnnnn_bot</code>
 """,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(buttons),
@@ -28,7 +28,7 @@ async def ohaja(client, callback_query):
         
     else:
         buttons = [
-            [InlineKeyboardButton("ʙᴇʟɪ ᴜsᴇʀʙᴏᴛ", callback_data=f"bahan")],
+            [InlineKeyboardButton("💸ʙᴇʟɪ ᴜsᴇʀʙᴏᴛ💸", callback_data=f"bahan")],
             [InlineKeyboardButton("ᴋᴇᴍʙᴀʟɪ", callback_data=f"home {user_id}")],
         ]
         return await callback_query.edit_message_text(
